@@ -23,7 +23,7 @@
 ### 🛠️ refactor
 - 权限判断逻辑调整，用户绑定权限调整为角色绑定权限
 ### fix
-- [接口无请求权限，Spring Security 自定义异常无效问题修复](https://youlai.blog.csdn.net/article/details/134718249)
+- [接口无请求权限，Spring Security 自定义异常无效问题修复](https://student.blog.csdn.net/article/details/134718249)
 
 
 # 2.4.1 (2023/11/7)

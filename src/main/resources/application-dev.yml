@@ -13,6 +13,9 @@ spring:
     url: jdbc:mysql://www.youlai.tech:3306/youlai_boot?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&autoReconnect=true&allowMultiQueries=true
     username: youlai
     password: 123456
+#   url: jdbc:mysql://192.168.68.223:3306/student_info?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&autoReconnect=true&allowMultiQueries=true
+#    username: root
+#    password: Jie.1996
   data:
     redis:
       database: 0
@@ -53,7 +56,7 @@ spring:
           starttls:
             enable: true
     # 邮件发送者
-    from: youlaitech@163.com
+    from: studenttech@163.com
 
 mybatis-plus:
   mapper-locations: classpath*:/mapper/**/*.xml
@@ -153,10 +156,10 @@ springdoc:
     - group: '系统管理'
       paths-to-match: "/**"
       packages-to-scan:
-        - com.youlai.boot.system.controller
-        - com.youlai.boot.shared.auth.controller
-        - com.youlai.boot.shared.file.controller
-        - com.youlai.boot.shared.codegen.controller
+        - com.student.boot.system.controller
+        - com.student.boot.shared.auth.controller
+        - com.student.boot.shared.file.controller
+        - com.student.boot.shared.codegen.controller
   default-flat-param-object: true
 
 # knife4j 接口文档配置

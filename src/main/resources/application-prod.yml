@@ -10,13 +10,13 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://www.youlai.tech:3306/youlai_boot?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&autoReconnect=true&allowMultiQueries=true
-    username: youlai
+    url: jdbc:mysql://www.student.tech:3306/student_boot?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&autoReconnect=true&allowMultiQueries=true
+    username: student
     password: 123456
   data:
     redis:
       database: 11
-      host: www.youlai.tech
+      host: www.student.tech
       port: 6379
       password: 123456
       timeout: 10s
@@ -96,7 +96,7 @@ oss:
     secret-key: minioadmin
     # 存储桶名称
     bucket-name: public
-    # (可选)自定义域名，如果配置了域名，生成的文件URL是域名格式，未配置则URL则是IP格式 (eg: https://oss.youlai.tech)
+    # (可选)自定义域名，如果配置了域名，生成的文件URL是域名格式，未配置则URL则是IP格式 (eg: https://oss.student.tech)
     custom-domain:
   # 阿里云OSS对象存储服务
   aliyun:
@@ -138,10 +138,10 @@ springdoc:
     - group: '系统管理'
       paths-to-match: "/**"
       packages-to-scan:
-        - com.youlai.boot.system.controller
-        - com.youlai.boot.shared.auth.controller
-        - com.youlai.boot.shared.file.controller
-        - com.youlai.boot.shared.codegen.controller
+        - com.student.boot.system.controller
+        - com.student.boot.shared.auth.controller
+        - com.student.boot.shared.file.controller
+        - com.student.boot.shared.codegen.controller
   default-flat-param-object: true
 
 # knife4j 接口文档配置

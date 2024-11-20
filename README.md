@@ -1,31 +1,31 @@
 
 <div align="center">
    <img alt="logo" width="100" height="100" src="https://foruda.gitee.com/images/1724259461244885014/4de96569_716974.png">
-   <h2>youlai-boot</h2>
+   <h2>student-boot</h2>
    <img alt="有来技术" src="https://img.shields.io/badge/Java -17-brightgreen.svg"/>
    <img alt="有来技术" src="https://img.shields.io/badge/SpringBoot-3.3.4-green.svg"/>
-   <a href="https://gitee.com/youlaiorg/youlai-boot" target="_blank">
-     <img alt="有来技术" src="https://gitee.com/youlaiorg/youlai-boot/badge/star.svg"/>
+   <a href="https://gitee.com/studentorg/student-boot" target="_blank">
+     <img alt="有来技术" src="https://gitee.com/studentorg/student-boot/badge/star.svg"/>
    </a>     
    <a href="https://github.com/haoxianrui" target="_blank">
-     <img alt="有来技术" src="https://img.shields.io/github/stars/haoxianrui/youlai-boot.svg?style=social&label=Stars"/>
+     <img alt="有来技术" src="https://img.shields.io/github/stars/haoxianrui/student-boot.svg?style=social&label=Stars"/>
    </a>
    <br/>
    <img alt="有来技术" src="https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg"/>
-   <a href="https://gitee.com/youlaiorg" target="_blank">
+   <a href="https://gitee.com/studentorg" target="_blank">
      <img alt="有来技术" src="https://img.shields.io/badge/Author-有来开源组织-orange.svg"/>
    </a>
 </div>
 
-![](https://raw.gitmirror.com/youlaitech/image/main/docs/rainbow.png)
+![](https://raw.gitmirror.com/studenttech/image/main/docs/rainbow.png)
 
 <div align="center">
-  <a target="_blank" href="https://admin.youlai.tech/">🔍 在线预览</a> |  <a target="_blank" href="https://doc.youlai.tech/%E5%89%8D%E5%90%8E%E7%AB%AF%E6%A8%A1%E6%9D%BF/%E5%90%8E%E7%AB%AF%E6%89%8B%E5%86%8C/%E9%A1%B9%E7%9B%AE%E7%AE%80%E4%BB%8B.html">📖 阅读文档</a> | <a href="./README.en-US.md">🌐English</a>
+  <a target="_blank" href="https://admin.student.tech/">🔍 在线预览</a> |  <a target="_blank" href="https://doc.student.tech/%E5%89%8D%E5%90%8E%E7%AB%AF%E6%A8%A1%E6%9D%BF/%E5%90%8E%E7%AB%AF%E6%89%8B%E5%86%8C/%E9%A1%B9%E7%9B%AE%E7%AE%80%E4%BB%8B.html">📖 阅读文档</a> | <a href="./README.en-US.md">🌐English</a>
 </div>
 
 ## 📢 项目简介
 
-**在线预览**: [https://vue3.youlai.tech](https://vue3.youlai.tech)
+**在线预览**: [https://vue3.student.tech](https://vue3.student.tech)
 
 基于 JDK 17、Spring Boot 3、Spring Security 6、JWT、Redis、Mybatis-Plus、Knife4j、Vue 3、Element-Plus 构建的前后端分离单体权限管理系统。
 
@@ -41,7 +41,7 @@
 
 ## 📁 项目目录
 ```
-youlai-boot
+student-boot
 ├── sql                                 # SQL脚本
 │   ├── mysql5                          # MySQL5 脚本
 │   └── mysql8                          # MySQL8 脚本
@@ -115,7 +115,7 @@ youlai-boot
 ## 🌺 前端工程
 | Gitee | Github |
 |-------|------|
-| [vue3-element-admin](https://gitee.com/youlaiorg/vue3-element-admin)  | [vue3-element-admin](https://github.com/youlaitech/vue3-element-admin)  |
+| [vue3-element-admin](https://gitee.com/studentorg/vue3-element-admin)  | [vue3-element-admin](https://github.com/studenttech/vue3-element-admin)  |
 
 
 ## 🌈 接口文档
@@ -129,7 +129,7 @@ youlai-boot
 
 1. **数据库初始化**
 
-    执行 [youlai_boot.sql](sql/mysql8/youlai_boot.sql) 脚本完成数据库创建、表结构和基础数据的初始化。
+    执行 [student_boot.sql](sql/mysql8/student_boot.sql) 脚本完成数据库创建、表结构和基础数据的初始化。
 
 2. **修改配置**
 
@@ -137,7 +137,7 @@ youlai-boot
 
 3. **启动项目**
 
-    执行 [SystemApplication.java](src/main/java/com/youlai/boot/YouLaiApplication.java) 的 main 方法完成后端项目启动；
+    执行 [SystemApplication.java](src/main/java/com/student/boot/YouLaiApplication.java) 的 main 方法完成后端项目启动；
 
     访问接口文档地址 [http://localhost:8989/doc.html](http://localhost:8989/doc.html) 验证项目启动是否成功。
 
@@ -147,7 +147,7 @@ youlai-boot
 
 Thanks to all the contributors!
 
-[![contributors](https://contrib.rocks/image?repo=haoxianrui/youlai-boot)](https://github.com/haoxianrui/youlai-boot/graphs/contributors)
+[![contributors](https://contrib.rocks/image?repo=haoxianrui/student-boot)](https://github.com/haoxianrui/student-boot/graphs/contributors)
 
 
 ## 💖 加交流群

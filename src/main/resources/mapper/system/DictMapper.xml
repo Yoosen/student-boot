@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.youlai.boot.system.mapper.DictMapper">
+<mapper namespace="com.student.boot.system.mapper.DictMapper">
     <!-- 字典分页列表 -->
-    <select id="getDictPage" resultType="com.youlai.boot.system.model.vo.DictPageVO">
+    <select id="getDictPage" resultType="com.student.boot.system.model.vo.DictPageVO">
         SELECT
             t1.id,
             t1.name,
@@ -26,12 +26,12 @@
             t1.create_time DESC
     </select>
 
-    <resultMap id="DictWithDataMap" type="com.youlai.boot.system.model.vo.DictVO">
+    <resultMap id="DictWithDataMap" type="com.student.boot.system.model.vo.DictVO">
         <result column="name" property="name"/>
         <result column="dict_code" property="dictCode"/>
         <collection property="dictDataList"
                     column="{dictCode=dict_code}"
-                    select="com.youlai.boot.system.mapper.DictDataMapper.getDictDataList">
+                    select="com.student.boot.system.mapper.DictDataMapper.getDictDataList">
         </collection>
     </resultMap>
 
